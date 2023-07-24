@@ -9,7 +9,6 @@ variable "ami_filter" {
   type    = object ({
     name  = string
     owner = string
-    values = 
   })
 
   default = {
